@@ -1,8 +1,8 @@
 {
     "name": "monicelli-lang",
-    "displayName": "Monicelli Lang",
+    "displayName": "Monicelli Programming Language",
     "description": "Support for Monicelli 2.0 \"Cofandina\" programming language",
-    "version": "0.1.1",
+    "version": "1.1.0",
     "engines": {
         "vscode": "^1.51.0"
     },
@@ -15,13 +15,13 @@
         "monicelli lang"
     ],
     "publisher": "MatMasIt",
-    "homepage": "https://raw.githubusercontent.com/MatMasIt/monicelli-syntax",
+    "homepage": "https://github.com/MatMasIt/monicelli-syntax",
     "repository": {
         "type": "git",
-        "url": "https://raw.githubusercontent.com/MatMasIt/monicelli-syntaxgit"
+        "url": "https://raw.githubusercontent.com/MatMasIt/monicelli-syntax.git"
     },
     "bugs": {
-        "url": "https://raw.githubusercontent.com/MatMasIt/monicelli-syntax/issues"
+        "url": "https://github.com/MatMasIt/monicelli-syntax/issues"
     },
     "icon": "logo.png",
     "contributes": {
@@ -45,7 +45,7 @@
         "grammars": [
             {
                 "language": "monicelli",
-                "scopeName": "source.monicelli",
+                "scopeName": "text.html.monicelli",
                 "path": "./syntaxes/monicelli.tmLanguage.json"
             }
         ]
