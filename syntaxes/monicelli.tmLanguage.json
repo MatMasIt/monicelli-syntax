@@ -1,0 +1,50 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Monicelli",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.monicelli",
+					"match": "\\b(Lei ha clacsonato|vaffanzum|con scappellamento a|come fosse|come se fosse|voglio|a posterdati|mi porga|stuzzica|e brematura anche, se|e prematura anche, se|che cos'è|o magari|o tarapia tapioco|e velocità di esecuzione|blinda la supercazzola|blinda la supercazzora|brematurata la supercazzola|brematura la supercazzora|prematurata la supercazzola|prematura la supercazzora|avvertite don ulrico|ho visto)\\b"
+				},
+				{
+					"name": "keyword.operator.monicelli",
+					"match": "\\b(più|meno|per|diviso|maggiore di|minore di|maggiore o uguale a|maggiore o uguale di|maggiore uguale a|maggiore o uguale di|minore o uguale a|minore o uguale di|minore uguale a|minore uguale di)\\b"
+				},
+				{
+					"name": "constant.language.monicelli",
+					"match": "\\b(destra|sinistra|conte|scusi noi siamo in|con rinforzino)\\b"
+				},
+				{
+					"name": "storage.type.monicelli",
+					"match": "\\b(Necchi|Mascetti|Perozzi|Melandri|Sassaroli)\\b"
+				},
+				{
+					"name": "comment.line.character.monicelli",
+					"match": "(bituma|#).*$"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.monicelli",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.monicelli",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.monicelli"
+}
