@@ -1,4 +1,4 @@
-#monicelli-syntax 
+# monicelli-syntax 
 
 Vscode for the [Monicelli programming language](https://github.com/esseks/monicelli)
 
